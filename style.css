@@ -1,26 +1,21 @@
 @font-face {
     font-family: myFont1;
-    src: url(fonts/Roboto_Condensed/RobotoCondensed-Light.ttf);
+    src: url(fonts/RobotoCondensed-Light.ttf);
 }
 
 @font-face {
     font-family: myFont2;
-    src: url(fonts/Jost/static/Jost-Medium.ttf);
+    src: url(fonts/Jost-Medium.ttf);
 }
 
 @font-face {
     font-family: myFont3;
-    src: url(fonts/Raleway/static/Raleway-Light.ttf);
-}
-
-@font-face {
-    font-family: myFont4;
-    src: url(fonts/Red_Hat_Display/static/RedHatDisplay-Regular.ttf);
+    src: url(fonts/Raleway-Light.ttf);
 }
 
 @font-face {
     font-family: myFont5;
-    src: url(fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+    src: url(fonts/RobotoCondensed-Regular.ttf);
 }
 
 @font-face {
@@ -33,7 +28,7 @@ html {
 }
 
 body {
-    background-image: url("images/pexels-marlon-martinez-1450082.jpg");
+    background-image: url("images/pexels-marlon-martinez-1450082.webp");
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid;
