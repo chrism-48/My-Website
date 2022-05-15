@@ -12,7 +12,8 @@ anime({
         duration:2300,       
         },   
         rotate: {
-        value:180,
+        // value:180,
+        value:[180,-180],
         duration:2500,
         easing: 'easeInOutSine',   
         }, 
@@ -20,6 +21,9 @@ anime({
             value:5.0,
             duration:3000,           
         },
+        // rotate: {
+        //     value: [60, -60],
+        // },
         delay:1000,          
 });
 
