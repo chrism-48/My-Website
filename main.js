@@ -16,18 +16,18 @@ anime({
     targets: [myContainer,myWelcome],  
     translateX: {       
         value:[-250,0],
-        duration:2300,       
+        duration:1300,       
         },   
         rotate: {
         value:[180,-180],
         duration:2500,
         easing: 'easeInOutSine',   
         }, 
-        scale: {
-            value:5.0,
-            duration:3000,           
-        },        
-        delay:1000,          
+        // scale: {
+        //     value:0,
+        //     duration:3000,           
+        // },        
+        delay:3000,          
 });
 
 
