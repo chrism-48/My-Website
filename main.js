@@ -8,6 +8,9 @@ let myParagraph = document.querySelector('p');
 let myLinkBar = document.querySelector('#links');
 let myLinks = document.querySelector('.thelinks');
 
+let myGH = document.querySelector('.thelinks.gh');
+let myLI = document.querySelector('.thelinks.li');
+let myHO = document.querySelector('.thelinks.ho');
 
 anime({
     targets: [myContainer,myWelcome],  
@@ -58,4 +61,19 @@ anime ({
         duration:3200,  
          
     },
+});
+
+anime ({
+    targets:[myGH,myLI,myHO],
+    translateX: {
+        value: [800,0], 
+        easing: 'easeInOutSine', 
+        duration:1200,           
+    },
+    rotate: {
+        value:'10turn',
+        duration:4000,
+        easing: 'easeInOutSine', 
+    }
+    
 });
